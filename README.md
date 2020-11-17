@@ -5,7 +5,6 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 ## TableofContents
 * [TableOfContents](#TableOfContents)
 * [HelloArduino](#HelloArduino)
-* [FiniteLEDBlink](#FiniteLEDBlink)
 
 ## HelloArduino
 
@@ -54,3 +53,5 @@ void loop() {
 ![BasicArduino](images/HelloArduino.jpg)
 
 ### Reflection
+
+This was defenitly very tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. 
