@@ -51,4 +51,6 @@ void loop() {
 
 ### Image or Wiring
 
+![alt text](HelloArduino.jpg)
+
 ### Reflection
