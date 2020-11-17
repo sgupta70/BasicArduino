@@ -11,7 +11,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 
 ### Description & Code
 
-```C++
+For this assignment we had to get our arduino'a to blink and to say "hello world". 
 
   Blink code goes here!!  // random comment for no reason...
 
