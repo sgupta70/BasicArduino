@@ -51,6 +51,6 @@ void loop() {
 
 ### Image or Wiring
 
-![BasicArduino](HelloArduino.jpg)
+![BasicArduino](images/HelloArduino.jpg)
 
 ### Reflection
