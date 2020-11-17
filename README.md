@@ -47,7 +47,7 @@ void loop() {
 ```
 
 ### Evidence
-[Here is my code on Arduino Create](https://create.arduino.cc/editor/sgupta70/65b4b6c6-7e0c-4e37-bb7e-4be5436a4f95)
+[Here is my code on Arduino Create](https://create.arduino.cc/editor/sgupta70/65b4b6c6-7e0c-4e37-bb7e-4be5436a4f95/preview)
 
 ### Image or Wiring
 
