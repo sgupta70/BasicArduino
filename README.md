@@ -13,7 +13,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 
 ### Description & Code
 
-For this assignment we had to get our arduino'a to blink and to say "hello world". 
+For this assignment we had to get our arduino's to blink and to say "hello world". 
 
 ```
 /*
