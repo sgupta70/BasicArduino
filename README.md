@@ -4,8 +4,9 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 
 ## TableofContents
 * [TableOfContents](#TableOfContents)
-* [ButtonActivatedLED](#ButtonActivatedLED)
 * [HelloArduino](#HelloArduino)
+* [FiniteLED](#FiniteLED)
+* [ButtonActivatedLED](#ButtonActivatedLED)
 
 ## HelloArduino
 
@@ -46,6 +47,57 @@ void loop() {
 
 ### Evidence
 [Here is my code on Arduino Create](https://create.arduino.cc/editor/sgupta70/65b4b6c6-7e0c-4e37-bb7e-4be5436a4f95/preview)
+
+### Image or Wiring
+
+![BasicArduino](images/HelloArduino.jpg)
+
+### Reflection
+
+This was kind of tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. The wiring and code was quite simple.
+
+
+## FiniteLED
+
+### Description & Code
+
+For this assignment we had to get our LED light to blink 5 times and then stop. 
+
+```
+int ledPin = 13;
+int blinkTime = 500;
+bool eyesStinging=true;
+
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);
+if(eyesStinging)                         //Only blink if it's absolutely necessary
+  blinkyBlinky(5, blinkTime); // 5 is number of blinks, blinkTime is the milliseconds in each state from above: int blinkTime = 500;
+}
+
+void loop()
+{
+
+
+  //
+}
+
+void blinkyBlinky(int repeats, int time)
+{
+  for (int i = 0; i < repeats; i++)
+  {
+    digitalWrite(ledPin, HIGH);
+    delay(time);
+    digitalWrite(ledPin, LOW);
+    delay(time);
+  }
+}
+
+```
+
+### Evidence
+[Here is my code on Arduino Create](https://create.arduino.cc/editor/sgupta70/db18afe5-231b-4318-874c-7bb4662af893/preview)
 
 ### Image or Wiring
 
