@@ -53,7 +53,7 @@ void loop() {
 
 ### Reflection
 
-This was defenitly very tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. 
+This was kind of tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. The wiring and code was quite simple.
 
 
 ## ButtonActivatedLED
@@ -95,6 +95,6 @@ void loop() {
 
 ### Reflection
 
-This was defenitly very tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. 
+This had a lot more wiring and more coding. It wasn't super hard and I got the hang of it pretty quickly. 
 
 
