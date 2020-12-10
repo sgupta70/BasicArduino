@@ -106,7 +106,7 @@ void blinkyBlinky(int repeats, int time)
 
 ### Reflection
 
-This was kind of tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. The wiring and code was quite simple.
+This assignment was fun, and it was pretty simple. The code and wiring were not very hard. 
 
 
 ## VariableLED
@@ -161,7 +161,7 @@ void loop() {
 
 ### Reflection
 
-This was kind of tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. The wiring and code was quite simple.
+This assignment was kind of hard for me, the wiring was very simple, but the code was a little tricky. We had to go onto office hours to get some help but after a little we were able to get it to work. 
 
 
 ## ButtonActivatedLED
