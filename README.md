@@ -6,6 +6,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 * [TableOfContents](#TableOfContents)
 * [HelloArduino](#HelloArduino)
 * [FiniteLED](#FiniteLED)
+* [VariableLED](#VariableLED)
 * [ButtonActivatedLED](#ButtonActivatedLED)
 
 ## HelloArduino
@@ -102,6 +103,61 @@ void blinkyBlinky(int repeats, int time)
 ### Image or Wiring
 
 ![BasicArduino](images/HelloArduino.jpg)
+
+### Reflection
+
+This was kind of tricky for me, we were doing a lot of things that I wasn't used too. It took me a while to figure everything out, but I was eventually able to get it to work. The wiring and code was quite simple.
+
+
+## VariableLED
+
+### Description & Code
+
+For this assignment we had to get a LED light to blink faster and faster each time until it reacher 100ms and it would just continue to blink there. 
+
+```
+/* Sahana Gupta
+  variable LED BLink
+  This should blink an LED faster and faster, until it reaches 5 blinks per second
+*/
+
+int led1 = 13;
+int delay1 = 1000;
+int delayAmount1 = delay1 / 10;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(led1, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led1, HIGH); //yellow on (yellow)
+  delay(delay1);
+  digitalWrite(led1, LOW); //yellow off (red)
+  delay(delay1);
+  
+  if (delay1 > 100)
+  {
+    delay1 = delay1 - delayAmount1;
+
+  }
+
+  Serial.println(delay1);
+}
+
+// digitalWrite(led3, HIGH); //blue on
+
+//delay(1000);
+
+//digitalWrite(led4, HIGH); //green on
+```
+
+### Evidence
+[Here is my code on Arduino Create](https://create.arduino.cc/editor/sgupta70/9172783e-670b-469e-9bae-bd27594edcd3/preview)
+
+### Image or Wiring
+
+![VariableLED](images/HelloArduino.jpg)
 
 ### Reflection
 
