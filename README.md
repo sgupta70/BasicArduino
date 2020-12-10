@@ -91,7 +91,7 @@ void loop() {
 
 ### Image or Wiring
 
-![ButtonActivatedLED](images/ButtonActivatedLED.png)
+![ButtonActivatedLED](images/ButtonActivated.png)
 
 ### Reflection
 
