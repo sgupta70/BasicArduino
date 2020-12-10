@@ -102,7 +102,7 @@ void blinkyBlinky(int repeats, int time)
 
 ### Image or Wiring
 
-![FiniteLED](images/VariableLED.jpg)
+![FiniteLED](images/VariableLED.png)
 
 ### Reflection
 
