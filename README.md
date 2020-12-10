@@ -157,7 +157,7 @@ void loop() {
 
 ### Image or Wiring
 
-![VariableLED](images/HelloArduino.jpg)
+![VariableLED](images/VariableLED.png)
 
 ### Reflection
 
