@@ -95,6 +95,6 @@ void loop() {
 
 ### Reflection
 
-This had a lot more wiring and more coding. It wasn't super hard and I got the hang of it pretty quickly. 
+This had a lot more wiring and more coding, we also had to figure out a way to only turn on the light with a button. It wasn't super hard and I got the hang of it pretty quickly. 
 
 
