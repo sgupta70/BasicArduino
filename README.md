@@ -91,7 +91,7 @@ void loop() {
 
 ### Image or Wiring
 
-![BasicArduino](images/HelloArduino.jpg)
+![ButtonActivatedLED](images/ButtonActivatedLED.png)
 
 ### Reflection
 
